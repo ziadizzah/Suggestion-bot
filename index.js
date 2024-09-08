@@ -10,7 +10,7 @@ client = new Client({
       parse: [ ],
       repliedUser: false,
     },
-    partials: ['MESSAGE', 'CHANNEL', 'REACTION'],
+    partials: ['MESSAGE', '1282432342560079912', 'REACTION'],
     intents: [ 
         Intents.FLAGS.GUILDS,
         Intents.FLAGS.GUILD_MEMBERS,
